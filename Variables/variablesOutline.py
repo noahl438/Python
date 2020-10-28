@@ -64,8 +64,8 @@ h = c[1]
 #in that list:
 
 string = "noah"
-n = string[0]
-
+n = string[0, 1, 2]
+print(n)
 #7)
 #Print out ONE of any of the variables you have created so far:
 
