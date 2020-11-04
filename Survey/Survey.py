@@ -1,17 +1,7 @@
 '''
 Created on Nov 3, 2020
 
-The Objective is to make a program that can take survey information
-from a user. The tasks to complete are:
-- Ask the user five different questions and get their answers
--- The questions are:
-    What is your name?
-    What is your favorite color?
-    What city did you grow up in?
-    What is your best friends name?
-    What color hair do you have?
-- Store the users answers in variables
-- Print the users answers.
+Make a program that can take survey information from a user. 
 
 
 @author: Noah J Lopez
