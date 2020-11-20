@@ -962,3 +962,106 @@ java.io.FileNotFoundException: C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\c
 
 !ENTRY org.python.pydev.shared_core 4 4 2020-11-19 21:08:54.397
 !MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Mathematical Operators\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2020-11-19 23:02:48.105
+!MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Comparison Operators\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2020-11-19 23:09:27.989
+!MESSAGE ERROR reading shell. Message sent: @@CHANGE_PYTHONPATH:C%3A%5CUsers%5CITAUser%5CDesktop%5CPython%5CComparison+Operators%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%5CDLLs%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%5Clib%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%7CC%3A%5CUsers%5CITAUser%5CAppData%5CLocal%5CPrograms%5CPython%5CPython38-32%5Clib%5Csite-packages
+END@@
+
+ProcessInfo:
+
+ - Executed: C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\python.exe -u C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\org.python.pydev.core_8.0.0.202009061243\pysrc\pycompletionserver.py 51161
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\ITAUser\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=WIN-9815VJ2
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+HOMEPATH=\Users\ITAUser
+LOCALAPPDATA=C:\Users\ITAUser\AppData\Local
+LOGONSERVER=\\WIN-9815VJ2
+NUMBER_OF_PROCESSORS=4
+ONEDRIVE=C:\Users\ITAUser\OneDrive
+ONEDRIVECONSUMER=C:\Users\ITAUser\OneDrive
+OS=Windows_NT
+PATH=C:/Program Files/Brainwy/LiClipse 7.0.0/jre/bin/client;C:/Program Files/Brainwy/LiClipse 7.0.0/jre/bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Webex\Plugins;C:\Users\ITAUser\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\;C:\Users\ITAUser\AppData\Local\Microsoft\WindowsApps;C:\Users\ITAUser\AppData\Local\GitHubDesktop\bin;C:\Program Files\Brainwy\LiClipse 7.0.0;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8e09
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\org.python.pydev.core_8.0.0.202009061243\pysrc\pydev_sitecustomize;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\DLLs;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\lib;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32;C:\Users\ITAUser\AppData\Local\Programs\Python\Python38-32\lib\site-packages
+SESSIONNAME=Console
+SYNAPROGDIR=Synaptics\SynTP
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\WINDOWS
+TEMP=C:\Users\ITAUser\AppData\Local\Temp
+TMP=C:\Users\ITAUser\AppData\Local\Temp
+USERDOMAIN=WIN-9815VJ2
+USERDOMAIN_ROAMINGPROFILE=WIN-9815VJ2
+USERNAME=ITAUser
+USERPROFILE=C:\Users\ITAUser
+WINDIR=C:\WINDOWS
+
+ - Working Dir:
+C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\org.python.pydev.core_8.0.0.202009061243\pysrc
+
+ - OS:
+Windows 10
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.endRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$1.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:456)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:514)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:709)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:701)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.internalChangePythonPath(CompletionsShell.java:44)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:62)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createInnerFromServer(CompiledModule.java:347)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.getGlobalTokens(CompiledModule.java:547)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:872)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:694)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:663)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:654)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:644)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:880)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:694)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:663)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:654)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.internalFindGlobalTokDef(SourceModule.java:1220)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findGlobalTokDef(SourceModule.java:1188)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinitionsFromModAndTok(SourceModule.java:1130)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1112)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:764)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:185)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:84)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
