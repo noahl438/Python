@@ -126,12 +126,3 @@ print(z)
 #3) Make a variable called x and assign it to l to the z power. Then print the variable.
 x = l ** z
 print(x)
-
-
-miles = input("how many miles?")
-
-yards = miles * 1760
-
-print(str(miles) + " miles converts to " + str(yards) + " yards.")
-
-
