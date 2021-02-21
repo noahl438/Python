@@ -1,5 +1,5 @@
 '''
-
+Objective: Create a program that can convert different amounts of miles into yards, feet, and inches.
 
 @author: Noah J Lopez
 '''
