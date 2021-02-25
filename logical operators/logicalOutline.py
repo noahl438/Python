@@ -23,9 +23,9 @@ b = maybe or sure
 print(b)
 #3) Make one boolean variable. Put the variable after the not. Store this 
 #expression in a variable named c. Print the variable.
-
-
-
+guess = True
+c = not guess
+print(c)
 #4) Make a logical expression with one of the common SYNTAX errors.
 
-
+3 < 4 or
