@@ -1,4 +1,6 @@
 '''
+Noah J Lopez
+
 The Objective of this program is to quiz the user on basic high school
 trivia. The tasks to complete are:
 -Ask the user each of the following questions:
